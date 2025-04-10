@@ -789,7 +789,7 @@
           <mxGeometry x="-3910" y="2423" width="550" height="520" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-7" value="HearthInfoCreateComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1189" y="3381" width="465" height="138" as="geometry" />
+          <mxGeometry x="1189" y="3355" width="465" height="164" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-8" value="# HearthInfoToCreate: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-7">
           <mxGeometry y="26" width="465" height="26" as="geometry" />
@@ -797,14 +797,17 @@
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-9" value="# TaskManagerClass: TSubClassOf&amp;lt;UTaskManager&amp;gt;;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-7">
           <mxGeometry y="52" width="465" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-234" value="# AgentManagerClass: TSubClassOf&amp;lt;UAgentManager&amp;gt;;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-7">
+          <mxGeometry y="78" width="465" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-7">
-          <mxGeometry y="78" width="465" height="8" as="geometry" />
+          <mxGeometry y="104" width="465" height="8" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-11" value="+ ServerCreateHearthInfo(int HearthId): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-7">
-          <mxGeometry y="86" width="465" height="26" as="geometry" />
+          <mxGeometry y="112" width="465" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-12" value="+ OnPlayerInitialized(AGameMode* GameMode, AController* NewPlayer): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-7">
-          <mxGeometry y="112" width="465" height="26" as="geometry" />
+          <mxGeometry y="138" width="465" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-13" value="HearthInfoSubSystem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="717" y="3677" width="370" height="138" as="geometry" />
@@ -842,7 +845,7 @@
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-24" value="+ HearthId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-23">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-25" value="+ LumyPetMap: TMap&amp;lt;int, ALumyPet&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-23">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-25" value="+ AgentManager: TObjectPtr&amp;lt;UAgentManager&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-23">
           <mxGeometry y="52" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-26" value="+ TaskManager: UObjectPtr&amp;lt;UTaskManager&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-23">
