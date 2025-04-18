@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="5eV_PeWOVMfrEkiUqKK2">
-    <mxGraphModel dx="6568" dy="1288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5561" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -789,7 +789,7 @@
           <mxGeometry x="-3910" y="2423" width="550" height="520" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-7" value="HearthInfoCreateComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1189" y="3355" width="465" height="164" as="geometry" />
+          <mxGeometry x="1759" y="3323" width="465" height="164" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-8" value="# HearthInfoToCreate: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-7" vertex="1">
           <mxGeometry y="26" width="465" height="26" as="geometry" />
@@ -810,7 +810,7 @@
           <mxGeometry y="138" width="465" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-13" value="HearthInfoSubSystem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="717" y="3677" width="370" height="138" as="geometry" />
+          <mxGeometry x="1287" y="3645" width="370" height="138" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-14" value="- HearthInfoMap: TMap&amp;lt;int, AHearthInfo&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-13" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
@@ -828,19 +828,19 @@
           <mxGeometry y="112" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-19" value="AGameState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1705" y="3242" width="370" height="34" as="geometry" />
+          <mxGeometry x="2275" y="3210" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-19" vertex="1">
           <mxGeometry y="26" width="370" height="8" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-21" value="GameStateComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1236.5" y="3225" width="370" height="34" as="geometry" />
+          <mxGeometry x="1806.5" y="3193" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-21" vertex="1">
           <mxGeometry y="26" width="370" height="8" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-23" value="AHearthInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="717" y="3368" width="370" height="138" as="geometry" />
+          <mxGeometry x="1287" y="3336" width="370" height="138" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-24" value="+ HearthId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-23" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
@@ -858,61 +858,76 @@
           <mxGeometry y="112" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-29" value="AInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="717" y="3136" width="370" height="34" as="geometry" />
+          <mxGeometry x="1287" y="3193" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-29" vertex="1">
           <mxGeometry y="26" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-31" value="ALumyPet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="3101" width="370" height="138" as="geometry" />
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-31" value="AgentManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="2814" width="470" height="268" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-32" value="+ CurrentTaskId：int&amp;nbsp; // 玩家接取的任务id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-31" vertex="1">
-          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-32" value="# spawnCount: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-31" vertex="1">
+          <mxGeometry y="26" width="470" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-33" value="+ CurrentAction: UGameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-31" vertex="1">
-          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-33" value="# spawnBoundbox: Vector2D" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-31" vertex="1">
+          <mxGeometry y="52" width="470" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-34" value="+ CarryInfo: AgentCarryInfo&amp;nbsp; // 手持信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-31" vertex="1">
-          <mxGeometry y="78" width="370" height="26" as="geometry" />
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-34" value="# actorClass: TSubclassOf&amp;lt;TS_LumyPet&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-31" vertex="1">
+          <mxGeometry y="78" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-63" value="# agentMap: TMap&amp;lt;number, TS_LumyPet&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-31">
+          <mxGeometry y="104" width="470" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-31" vertex="1">
-          <mxGeometry y="104" width="370" height="8" as="geometry" />
+          <mxGeometry y="130" width="470" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-36" value="+ ChangeAction(UGameplayTag ActionTag): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-31" vertex="1">
-          <mxGeometry y="112" width="370" height="26" as="geometry" />
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-36" value="- spawnAllAgentsDefault(ownerActor: Actor): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-31" vertex="1">
+          <mxGeometry y="138" width="470" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-37" value="0-n" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-13" target="WzHyImu6AgKzeZ2Wmoq6-23" edge="1">
+        <mxCell id="uF75a15nhC03vSaOrU7u-65" value="- spawnAllAgents(ownerActor: Actor, stateDataList: TArray&amp;lt;AgentStateData&amp;gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-31">
+          <mxGeometry y="164" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-64" value="- randomSpawnTrans(centerTrans: Transform): Transform" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-31">
+          <mxGeometry y="190" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-66" value="- spawnAgent(ownerActor: Actor, trans: Transform): TS_LumyPet" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-31">
+          <mxGeometry y="216" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-67" value="+ getAvaliableAgents(): ITaskAgents[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-31">
+          <mxGeometry y="242" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-37" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-13" target="WzHyImu6AgKzeZ2Wmoq6-23" edge="1">
           <mxGeometry x="-1" y="28" relative="1" as="geometry">
-            <mxPoint x="997" y="3067" as="sourcePoint" />
-            <mxPoint x="1157" y="3067" as="targetPoint" />
+            <mxPoint x="1567" y="3035" as="sourcePoint" />
+            <mxPoint x="1727" y="3035" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-38" value="UTaskManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-380" y="2840" width="480" height="502" as="geometry" />
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-38" value="TaskManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="2814" width="480" height="476" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-39" value="# PriorityPolicyClass: Class" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-39" value="# taskDistributor: ITaskDistributor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="26" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-40" value="# ActiveTasks: TArray&amp;lt;TaskInfo&amp;gt;&amp;nbsp; //正在运行的任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-40" value="# ActiveTasks: TArray&amp;lt;Task&amp;gt;&amp;nbsp; //正在运行的任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="52" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-41" value="# InterruptedTasks: TArray&amp;lt;TaskInfo&amp;gt; //中断的任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-41" value="# InterruptedTasks: TArray&amp;lt;Task&amp;gt; //中断的任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="78" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-42" value="# PendingTasks: TQueue&amp;lt;TaskInfo&amp;gt; // 待领取的任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-42" value="# PendingTasks: TQueue&amp;lt;Task&amp;gt; // 待领取的任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="104" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="130" width="480" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-44" value="+ UTaskManager(Class PriorityPolicyClass)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-44" value="+ SetTaskDistributor(distributor: ITaskDistributor): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="138" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-45" value="+ PushTask(TaskInfo Task): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-45" value="# TryDistributeTasks(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="164" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-46" value="+ PopTask(): TaskInfo&amp;nbsp; // 认领一个任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
+        <mxCell id="uF75a15nhC03vSaOrU7u-21" value="# InternalAssignTask(agent: ITaskAgent, task: Task): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WzHyImu6AgKzeZ2Wmoq6-38">
           <mxGeometry y="190" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-47" value="+ CancelTask(int TaskId): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
@@ -939,88 +954,73 @@
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-54" value="# HasSamePendingTask(TaskOrderInfo Order): bool&amp;nbsp; &amp;nbsp;// 检查是否相同的任务订单" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="398" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-194" value="# CheckTaskRequestie(ITaskAgent Agent, TaskInfo Task): bool //检查玩家能否接任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-194" value="# CheckTaskRequestie(ITaskAgent Agent, Task Task): bool //检查玩家能否接任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="424" width="480" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-201" value="# CreateTask(TaskOrderInfo Order): void //根据订单重建任务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
           <mxGeometry y="450" width="480" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-221" value="+ Listen(UGameplayTag Message, FMessagePayload Payload): void //监听一些消息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-38" vertex="1">
-          <mxGeometry y="476" width="480" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-55" value="UObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="2707" width="370" height="34" as="geometry" />
+          <mxGeometry x="560" y="2300" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-55" vertex="1">
           <mxGeometry y="26" width="370" height="8" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-57" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-23" target="WzHyImu6AgKzeZ2Wmoq6-29" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="894" y="3367" as="sourcePoint" />
-            <mxPoint x="1034" y="3387" as="targetPoint" />
+            <mxPoint x="1464" y="3335" as="sourcePoint" />
+            <mxPoint x="1604" y="3355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-58" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-7" target="WzHyImu6AgKzeZ2Wmoq6-21" edge="1">
           <mxGeometry x="0.0084" width="160" relative="1" as="geometry">
-            <mxPoint x="1389" y="3367" as="sourcePoint" />
-            <mxPoint x="1404" y="3297" as="targetPoint" />
+            <mxPoint x="1959" y="3335" as="sourcePoint" />
+            <mxPoint x="1974" y="3265" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-59" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-38" target="WzHyImu6AgKzeZ2Wmoq6-55" edge="1">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-59" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="uF75a15nhC03vSaOrU7u-38" target="WzHyImu6AgKzeZ2Wmoq6-55" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-130" y="2854" as="sourcePoint" />
-            <mxPoint x="30" y="2854" as="targetPoint" />
+            <mxPoint x="520" y="2822" as="sourcePoint" />
+            <mxPoint x="680" y="2822" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-60" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-23" target="WzHyImu6AgKzeZ2Wmoq6-31" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="375" y="3490" as="sourcePoint" />
-            <mxPoint x="535" y="3490" as="targetPoint" />
+            <mxPoint x="945" y="3458" as="sourcePoint" />
+            <mxPoint x="1105" y="3458" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-61" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-23" target="WzHyImu6AgKzeZ2Wmoq6-38" edge="1">
           <mxGeometry x="-0.8718" y="17" relative="1" as="geometry">
-            <mxPoint x="235" y="3360" as="sourcePoint" />
-            <mxPoint x="395" y="3360" as="targetPoint" />
+            <mxPoint x="805" y="3328" as="sourcePoint" />
+            <mxPoint x="965" y="3328" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-62" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-19" target="WzHyImu6AgKzeZ2Wmoq6-7" edge="1">
           <mxGeometry x="-0.8282" relative="1" as="geometry">
-            <mxPoint x="1210" y="3460" as="sourcePoint" />
-            <mxPoint x="1370" y="3460" as="targetPoint" />
+            <mxPoint x="1780" y="3428" as="sourcePoint" />
+            <mxPoint x="1940" y="3428" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1900" y="3463" />
+              <mxPoint x="2470" y="3431" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-63" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-7" target="WzHyImu6AgKzeZ2Wmoq6-23" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1259" y="3517" as="sourcePoint" />
-            <mxPoint x="1419" y="3517" as="targetPoint" />
+            <mxPoint x="1829" y="3485" as="sourcePoint" />
+            <mxPoint x="1989" y="3485" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-64" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-7" target="WzHyImu6AgKzeZ2Wmoq6-13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1159" y="3637" as="sourcePoint" />
-            <mxPoint x="1319" y="3637" as="targetPoint" />
+            <mxPoint x="1729" y="3605" as="sourcePoint" />
+            <mxPoint x="1889" y="3605" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1422" y="3746" />
+              <mxPoint x="1992" y="3714" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-65" value="ACharacter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="2979" width="370" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-65" vertex="1">
-          <mxGeometry y="26" width="370" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-67" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-31" target="WzHyImu6AgKzeZ2Wmoq6-65" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="955" y="3265" as="sourcePoint" />
-            <mxPoint x="1115" y="3265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-68" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;b&gt;IInteractable：交互对象&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1120,7 +1120,7 @@
           <mxGeometry x="-3685" y="2393" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-99" value="AIController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="2702" width="370" height="86" as="geometry" />
+          <mxGeometry x="1905" y="2579" width="370" height="86" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-100" value="+ BlackboardComponent: UBlackboardComponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-99" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
@@ -1156,73 +1156,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-110" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;b&gt;ITaskAgent&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2410" y="2894" width="470" height="204" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-178" value="+ TaskPropList: TArray&amp;lt;TaskPropInfo&amp;gt; ；玩家身上带的道具，包括工具、原料或者产物" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-110" vertex="1">
-          <mxGeometry y="40" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-206" value="+ CurrentAction: UGameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-110" vertex="1">
-          <mxGeometry y="66" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-205" value="+ CurrentTaskId：int&amp;nbsp; // 玩家接取的任务id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-110" vertex="1">
-          <mxGeometry y="92" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-113" value="&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-110" vertex="1">
-          <mxGeometry y="118" width="470" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-209" value="+ ClaimTask(int TaskId): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-110" vertex="1">
-          <mxGeometry y="126" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-211" value="+ StartAction(UGameplayTag ActionType): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-110" vertex="1">
-          <mxGeometry y="152" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-210" value="+ OnActionChange(UGameplayTag OldAction, UGameplayTag NewAction): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-110" vertex="1">
-          <mxGeometry y="178" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-119" value="ALumyPetAgentComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2410" y="3173" width="470" height="242" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-225" value="+ CurrentAction: UGameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-119" vertex="1">
-          <mxGeometry y="26" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-224" value="+ CarryList: TArray&amp;lt;CarryItemInfo&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-119" vertex="1">
-          <mxGeometry y="52" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-226" value="+ CurrentTaskId：int&amp;nbsp; // 玩家接取的任务id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-119" vertex="1">
-          <mxGeometry y="78" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-121" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-119" vertex="1">
-          <mxGeometry y="104" width="470" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-228" value="+ ClaimTask(int TaskId): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-119" vertex="1">
-          <mxGeometry y="112" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-229" value="+ StartAction(UGameplayTag ActionType): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-119" vertex="1">
-          <mxGeometry y="138" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-230" value="+ OnActionChange(UGameplayTag OldAction, UGameplayTag NewAction): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-119" vertex="1">
-          <mxGeometry y="164" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-231" value="# Listen(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-119" vertex="1">
-          <mxGeometry y="190" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-232" value="# CancelListen(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-119" vertex="1">
-          <mxGeometry y="216" width="470" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-123" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-119" target="WzHyImu6AgKzeZ2Wmoq6-110" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-3307" y="3263" as="sourcePoint" />
-            <mxPoint x="-3307" y="3031" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-124" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-119" target="WzHyImu6AgKzeZ2Wmoq6-103" edge="1">
-          <mxGeometry x="-0.3681" y="-13" width="160" relative="1" as="geometry">
-            <mxPoint x="-2922" y="3226" as="sourcePoint" />
-            <mxPoint x="-2705" y="2953" as="targetPoint" />
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-125" value="TaskInfo:任务" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1650" y="3526" width="370" height="164" as="geometry" />
         </mxCell>
@@ -1245,10 +1178,10 @@
           <mxGeometry y="138" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-132" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ETaskPhase&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;：任务阶段&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Inactive = 0&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Avaliable&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Running&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Paused&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Completed&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Canceled&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Interrupted&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-1910" y="3294" width="200" height="140" as="geometry" />
+          <mxGeometry x="-1650" y="2480" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-133" value="ActionContextData：行为运行上下文信息" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="3013" width="370" height="294" as="geometry" />
+          <mxGeometry x="-1150" y="2650" width="370" height="294" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-134" value="+ ActionType: UGameplayTag&amp;nbsp; //行为类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-133" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
@@ -1286,7 +1219,7 @@
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-145" value="TaskPrerequiste: 任务前置依赖" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1650" y="2843" width="460" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-146" value="+ RequisteType: UGameplayTag；//类型大类，比如设施，工具，道具，任务？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-145" vertex="1">
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-146" value="+ RequisteType: UGameplayTag；//类型大类，比如设施，工具，原料道具，任务？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-145" vertex="1">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-147" value="+ RequisteId: int&amp;nbsp; &amp;nbsp; // 具有不同属性，如果是道具，则是道具id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-145" vertex="1">
@@ -1353,7 +1286,7 @@
           <mxGeometry y="182" width="370" height="8" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-168" value="ActionItemInfo：行为需要的原材料或产物" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="2843" width="370" height="138" as="geometry" />
+          <mxGeometry x="-1150" y="2480" width="370" height="138" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-169" value="+ Tag: UGameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-168" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
@@ -1371,7 +1304,7 @@
           <mxGeometry y="130" width="370" height="8" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-174" value="ActionInfo: 任务行为数据" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="3340" width="370" height="60" as="geometry" />
+          <mxGeometry x="-1150" y="2977" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-175" value="+ ActionType: UGameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-174" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
@@ -1406,20 +1339,8 @@
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-188" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-186" vertex="1">
           <mxGeometry y="52" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-189" value="TaskFactory: 任务发布工厂" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="3610" width="510" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-190" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-189" vertex="1">
-          <mxGeometry y="26" width="510" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-191" value="+ CreatePlantTask(TaskOrderInfo OrderInfo): TaskInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-189" vertex="1">
-          <mxGeometry y="34" width="510" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-192" value="+ CreateCookTask(TaskOrderInfo OrderInfo): TaskInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-189" vertex="1">
-          <mxGeometry y="60" width="510" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-195" value="TaskOrderInfo：任务订单" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="3434" width="370" height="138" as="geometry" />
+          <mxGeometry x="-1150" y="3071" width="370" height="138" as="geometry" />
         </mxCell>
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-196" value="+ Tag: UGameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="WzHyImu6AgKzeZ2Wmoq6-195" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
@@ -1436,11 +1357,372 @@
         <mxCell id="WzHyImu6AgKzeZ2Wmoq6-200" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="WzHyImu6AgKzeZ2Wmoq6-195" vertex="1">
           <mxGeometry y="130" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-222" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;TaskMessage：任务消息&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TaskOrderChanged：TArray&amp;lt;TaskOrderInfo&amp;gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 任务订单变更消息&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AttributeThresholdReached&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;：AgentId, AttributeTag，Value。&amp;nbsp; &amp;nbsp; &amp;nbsp;//Agent属性变更到达阈值&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ToolMissing： 工具架上被标记的工具没了（被玩家拿走了？）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SourceMissing：种子箱或粮仓里的食材没了（被玩家手动拿走了？一般会先标记，理论上不出现）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MissingFacility:&amp;nbsp; 设施没了&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（什么情况能出现这种）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;NoSuiltableFacility: 没有找到可用的设施&lt;span style=&quot;background-color: initial;&quot;&gt;（什么情况能出现这种）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MissingTarget： 目标MoveTo目标丢失（什么情况能出现这种）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PlayerChangeCarryTool: 玩家手动调整了所带的工具？&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（什么情况能出现这种）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-2410" y="3507" width="560" height="153" as="geometry" />
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-222" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;TaskMessage：任务消息&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TaskOrderChanged：TArray&amp;lt;TaskOrderInfo&amp;gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 任务订单变更消息&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AttributeThresholdReached&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;：AgentId, AttributeTag，Value。&amp;nbsp; &amp;nbsp; &amp;nbsp;//Agent属性变更到达阈值&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Missing&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Tool： 工具架上被标记的工具没了（被玩家拿走了？）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Missing&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Source：种子箱或粮仓里的食材没了（被玩家手动拿走了？一般会先标记，理论上不出现）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Missing&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Facility&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp; 设施没了&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（什么情况能出现这种）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MissingTarget： 目标MoveTo目标丢失（什么情况能出现这种）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;NoSuiltableFacility: 没有找到可用的设施&lt;span style=&quot;background-color: initial;&quot;&gt;（什么情况能出现这种）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PlayerChangeCarryTool: 玩家手动调整了所带的工具？&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（什么情况能出现这种）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1150" y="3297" width="560" height="153" as="geometry" />
         </mxCell>
-        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-233" value="可以通过一个事件系统发送消息&lt;div&gt;Agent收到消息后会进行处理&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
-          <mxGeometry x="-2410" y="3440" width="270" height="50" as="geometry" />
+        <mxCell id="WzHyImu6AgKzeZ2Wmoq6-233" value="可以通过一个事件系统发送消息&lt;div&gt;Agent收到消息后会进行处理&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-1150" y="3230" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;b&gt;ITask&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="2670" width="470" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-5" value="&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-1">
+          <mxGeometry y="40" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-32" value="+ GetTaskId(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-1">
+          <mxGeometry y="48" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-35" value="+ markTaskPhase(taskPhase: ETaskPhase): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-1">
+          <mxGeometry y="74" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-36" value="+ markTaskAction(action: UE.GameplayTag): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-1">
+          <mxGeometry y="100" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-34" value="+ checkRequisite(agent: ITaskAgent): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-1">
+          <mxGeometry y="126" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-33" value="+ isFinished(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-1">
+          <mxGeometry y="152" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-9" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;b&gt;ITaskDistributor: 任务分配器&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="2395" width="620" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-13" value="&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-9">
+          <mxGeometry y="40" width="620" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-16" value="+ distributeTasks(agents: TArray&amp;lt;ITaskAgent&amp;gt;, tasks: TArray&amp;lt;ITask&amp;gt;): TMap&amp;lt;number, number&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-9">
+          <mxGeometry y="48" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-17" value="DefaultTaskDistributor: 默认任务分配器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="2523" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-17">
+          <mxGeometry y="26" width="620" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-18" value="+ distributeTasks(agents: TArray&amp;lt;ITaskAgent&amp;gt;, tasks: TArray&amp;lt;ITask&amp;gt;): TMap&amp;lt;number, number&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-17">
+          <mxGeometry y="34" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-20" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-17" target="uF75a15nhC03vSaOrU7u-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="2333" as="sourcePoint" />
+            <mxPoint x="310" y="2333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-22" value="Task: 任务基类" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="2959" width="370" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-23" value="# taskInfo: TaskInfo;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-22">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-22">
+          <mxGeometry y="52" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-26" value="+ GetTaskId(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-22">
+          <mxGeometry y="60" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-27" value="+ markTaskPhase(taskPhase: ETaskPhase): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-22">
+          <mxGeometry y="86" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-28" value="+ markTaskAction(action: UE.GameplayTag): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-22">
+          <mxGeometry y="112" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-29" value="+ checkRequisite(agent: ITaskAgent): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-22">
+          <mxGeometry y="138" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-30" value="+ isFinished(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-22">
+          <mxGeometry y="164" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-22" target="uF75a15nhC03vSaOrU7u-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="690" y="3796.5" as="sourcePoint" />
+            <mxPoint x="850" y="3796.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-31" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-22" target="WzHyImu6AgKzeZ2Wmoq6-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="2960" as="sourcePoint" />
+            <mxPoint x="390" y="2960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-37" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.12;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-9" target="WzHyImu6AgKzeZ2Wmoq6-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="20" y="2430" as="sourcePoint" />
+            <mxPoint x="299.4400000000005" y="2808.002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-38" value="Manager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2394" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-39" value="+ property: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-38">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-38">
+          <mxGeometry y="52" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-42" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-38" target="uF75a15nhC03vSaOrU7u-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="506.5" y="2800" as="sourcePoint" />
+            <mxPoint x="503.5" y="2580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-43" value="ALumyPet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="2375" width="370" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-44" value="+ CurrentTaskId：int&amp;nbsp; // 玩家接取的任务id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-43">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-45" value="+ CurrentAction: UGameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-43">
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-46" value="+ TaskPropList: TArray&amp;lt;TaskPropInfo&amp;gt;&amp;nbsp; // 手持信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-43">
+          <mxGeometry y="78" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-43">
+          <mxGeometry y="104" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-48" value="+ ChangeAction(UGameplayTag ActionTag): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-43">
+          <mxGeometry y="112" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-49" value="ACharacter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2099" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-49">
+          <mxGeometry y="26" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-51" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-43" target="uF75a15nhC03vSaOrU7u-49">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2085" y="2722" as="sourcePoint" />
+            <mxPoint x="2245" y="2722" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-52" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;b&gt;ITaskAgent&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="2099" width="470" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-53" value="+ TaskPropList: TArray&amp;lt;TaskPropInfo&amp;gt; ；玩家身上带的道具，包括工具、原料或者产物" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-52">
+          <mxGeometry y="40" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-54" value="+ CurrentAction: UGameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-52">
+          <mxGeometry y="66" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-55" value="+ CurrentTaskId：int&amp;nbsp; // 玩家接取的任务id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-52">
+          <mxGeometry y="92" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-56" value="&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-52">
+          <mxGeometry y="118" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-57" value="+ ClaimTask(int TaskId): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-52">
+          <mxGeometry y="126" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-58" value="+ StartAction(UGameplayTag ActionType): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-52">
+          <mxGeometry y="152" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-59" value="+ OnActionChange(UGameplayTag OldAction, UGameplayTag NewAction): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-52">
+          <mxGeometry y="178" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-60" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-43" target="uF75a15nhC03vSaOrU7u-52">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1564.9999999999995" y="2432" as="sourcePoint" />
+            <mxPoint x="433" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-62" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="WzHyImu6AgKzeZ2Wmoq6-31" target="uF75a15nhC03vSaOrU7u-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="2610" as="sourcePoint" />
+            <mxPoint x="960" y="2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-68" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.693;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-69" target="WzHyImu6AgKzeZ2Wmoq6-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="920" y="2460" as="sourcePoint" />
+            <mxPoint x="1199.4400000000005" y="2831.002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-69" value="TS_LumyPet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="2579" width="370" height="346" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-70" value="+ CurrentTaskId：int&amp;nbsp; // 玩家接取的任务id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-71" value="+ CurrentAction: UGameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-72" value="+ TaskPropList: TArray&amp;lt;TaskPropInfo&amp;gt;&amp;nbsp; // 手持信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="78" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-73" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="104" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-74" value="+ AssignTask(taskId: int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="112" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-76" value="+ ClearTask(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="138" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-77" value="+ PauseTask(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="164" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-78" value="+ ResumeTask(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="190" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-79" value="+ HasTaskPropItem(itemId: number): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="216" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-80" value="+ hasTaskFinished(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="242" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-81" value="+ StartAction(action: UE.GameplayTag): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="268" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-82" value="+ StartSimulate(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="294" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-83" value="+ StopSimulate(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-69">
+          <mxGeometry y="320" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-75" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-69" target="uF75a15nhC03vSaOrU7u-43">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1440" y="2629" as="sourcePoint" />
+            <mxPoint x="1600" y="2629" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-92" value="HearthInfoSubSystem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1297" y="4280" width="370" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-93" value="- HearthInfoMap: TMap&amp;lt;int, AHearthInfo&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-92">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-94" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-92">
+          <mxGeometry y="52" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-95" value="+ CreateHearthInfo(int HearthId, int64 OwnerUID): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-92">
+          <mxGeometry y="60" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-116" value="# RegisterHearthInfo(AHearthInfo* Info): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-92">
+          <mxGeometry y="86" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-96" value="+ UnregisterHearthInfo(AHearthInfo* Info): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-92">
+          <mxGeometry y="112" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-97" value="+ GetHearthInfo(int HearthId): AHearthInfo*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-92">
+          <mxGeometry y="138" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-102" value="AHearthInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1297" y="4073" width="370" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-103" value="+ HearthId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-102">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-104" value="+ AgentManager: TObjectPtr&amp;lt;UAgentManager&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-102">
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-105" value="+ TaskManager: UObjectPtr&amp;lt;UTaskManager&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-102">
+          <mxGeometry y="78" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-106" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-102">
+          <mxGeometry y="104" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-107" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-102">
+          <mxGeometry y="112" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-108" value="AInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1297" y="3930" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-109" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="uF75a15nhC03vSaOrU7u-108">
+          <mxGeometry y="26" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-110" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-92" target="uF75a15nhC03vSaOrU7u-102">
+          <mxGeometry x="-1" y="28" relative="1" as="geometry">
+            <mxPoint x="1577" y="3772" as="sourcePoint" />
+            <mxPoint x="1737" y="3772" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-111" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uF75a15nhC03vSaOrU7u-102" target="uF75a15nhC03vSaOrU7u-108">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1474" y="4072" as="sourcePoint" />
+            <mxPoint x="1614" y="4092" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-117" value="HearthLumyInfo: 展示一些Debug信息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="4370" width="320" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-119" value="+ BehaviourTree: GameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-118" value="+ TaskId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="52" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-124" value="+ WorkOrDemandTag: GameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="78" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-138" value="+ WorkItemId: Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="104" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-120" value="+ Action: GameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="130" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-127" value="+ TotalWorkload： float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="156" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-128" value="+ Workload： float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="182" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-129" value="+ WorkSpeed：float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="208" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-121" value="+ Stamina: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="234" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-130" value="+ Mood:float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="260" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-131" value="+ Hunger: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="286" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-132" value="+ MaxStamina: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="312" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-133" value="+ MaxMood: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="338" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-134" value="+ MaxHunger: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="364" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-122" value="+ CarryTool: GameplayTag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="390" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-123" value="+ CarryItems: TArray&amp;lt;ItemData&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="416" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-135" value="+ TargetLocation: Vector" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="442" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-136" value="+ TargetActor: Actor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="468" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-125" value="+ GameplayEffects: TArray&amp;lt;GameplayEffects&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="uF75a15nhC03vSaOrU7u-117">
+          <mxGeometry y="494" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-139" value="行为信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="4540" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-140" value="任务信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="4460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-141" value="Attribute信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="4620" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-142" value="GE信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="4700" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-143" value="目标信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="4620" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-144" value="工具信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="4460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uF75a15nhC03vSaOrU7u-145" value="携带物品信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="4540" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
